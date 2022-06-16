@@ -108,7 +108,7 @@
     function updateSpanText(id, addedNum){
         const current = document.getElementById(id).innerText;
         const currentNum = parseFloat(current);
-        const totalAmount = depositNum + currentNum;
+        const totalAmount = addedNum + currentNum;
         document.getElementById(id).innerText = totalAmount;
     }
     </script>
